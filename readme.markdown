@@ -16,3 +16,11 @@ Files
 * `dg_tools/dg_tools.h`: some functions for calculating face and subface
   positions between neighboring cells.
 * `dg_tools/test.cc`: A *very crude* test for some of the `DGTools` functions.
+
+Pictures
+--------
+Here are two pictures of the distributed version in action, across `16`
+processes. The first picture is of the solution itself:
+![Solution](https://raw.githubusercontent.com/drwells/dealii-step-12a/master/distributed/solution.png)
+and the second shows the sixteen subdomains:
+![Subdomains](https://raw.githubusercontent.com/drwells/dealii-step-12a/master/distributed/subdomains.png)
